@@ -1,5 +1,6 @@
 Compile:
     $ gcc -DLINUX -ansi -I -Wall -D_GNU_SOURCE   -L./  mutex1.c  libapue.a -pthread -o mutex1
+    $ gcc -DLINUX -ansi -I -Wall -D_GNU_SOURCE   -L./  mutex2.c  libapue.a -pthread -o mutex2
 
 Run result:
     $ ./mutex1
