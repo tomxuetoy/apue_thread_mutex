@@ -1,0 +1,10 @@
+Compile:
+    $ gcc -DLINUX -ansi -I -Wall -D_GNU_SOURCE   -L./  mutex1.c  libapue.a -pthread -o mutex1
+
+Run result:
+    $ ./mutex1
+    f_lock of myfoo is 1
+    f_lock of myfoo is 2
+    f_lock of myfoo is 3
+    f_lock of myfoo is 2
+    f_lock of myfoo is 1
